@@ -2,9 +2,9 @@ import React from "react"
 
 const SubHeader = (props)=>{
     return(
-        <div>
-            <div className="score">Score:{props.currentScore}</div>
-            <div className="score">Best Score:{props.bestScore}</div>
+        <div className="subHeader">
+            <div className>Score:{props.currentScore}</div>
+            <div className>Best Score:{props.bestScore}</div>
         </div>
     )
 }

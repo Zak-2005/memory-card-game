@@ -1,10 +1,9 @@
 import React from "react";
 
 const Card = (props) =>{
-    console.log(props.src)
     return (
        
-        <img src={props.src}/>
+        <img className = "card" key={props.uniqueID}src={props.src} onClick={(e)=>props.updateScore(props.uniqueID)}/>
     )
 }
 
